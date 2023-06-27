@@ -1,0 +1,12 @@
+.profile-img-section{
+    display: flex;
+    position: relative;
+}
+.profile-bg{
+    z-index: 1;
+}
+
+.profile-img{
+    position: absolute;
+    z-index: 11;
+}

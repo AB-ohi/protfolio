@@ -1,19 +1,21 @@
+import { Link } from 'react-router-dom';
+import './NavBer.css'
 const NavBer = () => {
   const list = (
     <>
-      <li>
-        <a>Home</a>
+      <li className='btn'>
+        <Link>Home</Link>
       </li>
-      <li>
+      <li className='btn'>
         <a>About Me</a>
       </li>
-      <li>
+      <li className='btn'>
         <a>My Project</a>
       </li>
       </>
   );
   return (
-    <div className="navbar md:justify-center bg-black text-white">
+    <div className="navbar md:justify-center ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -39,10 +41,13 @@ const NavBer = () => {
           {list}
           </ul>
         </div>
-        <img className="w-[50px]" src="https://i.ibb.co/TB1PdVs/Mesa-de-trabajo-1-2x.png" alt="" />
+        <div className="flex items-center gap-1">
+        <img className="w-[50px]" src="../../../public/img/logo.png" alt="" />
+        <h1 className="font-bold text-xl logo-name">Ohi</h1>
+        </div>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+      <div className="hidden lg:flex">
+        <ul className="menu-horizontal px-1 nav-list">
           {list}
         </ul>
       </div>

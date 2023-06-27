@@ -1,0 +1,19 @@
+.logo-name{
+    cursor: context-menu
+}
+.nav-list li{
+    margin: 10px;
+    border-radius: 8px;
+    background: none;
+    border: none;
+    background: none;
+    transition: 0.5s;
+    
+}
+.nav-list li:hover{
+    background: linear-gradient(45deg, rgba(153,41,234,1) 30%, rgba(88,8,251,1) 100%);
+    color: white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+
+}

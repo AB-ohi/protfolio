@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .main-background{
-  background-image: url('https://i.ibb.co/brr1s7P/975033e77de874909c4009ec337b8ea5.gif');
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
