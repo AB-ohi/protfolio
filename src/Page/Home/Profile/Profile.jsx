@@ -1,10 +1,9 @@
 import "./Profile.css";
-import { FaBeer } from 'react-icons/fa';
 
 const Profile = () => {
   return (
-    <div className="flex items-center justify-around">
-      <div className="flex flex-col">
+    <div className="flex justify-around">
+      <div className="flex flex-col justify-around">
         <div>
           <div className="flex items-center gap-2">
             <h1 className="text-5xl font-bold">Abu Sime Khan Ohi</h1>
@@ -14,7 +13,7 @@ const Profile = () => {
               alt=""
             />
           </div>
-          <div className="flex w-full items-center m-0 gap-5 border-opacity-50">
+          <div className="flex w-full m-0 gap-5 justify-start border-opacity-50">
             <div className="divider w-[106px]"></div>
             <h2 className="font-semibold text-3xl">Front-End Developer</h2>
           </div>
@@ -25,10 +24,11 @@ const Profile = () => {
             </p>
           </div>
         </div>
-        <div>
-          <a href=""> <FaBeer /></a>
-          <a href=""></a>
-          <a href=""></a>
+        <div className="flex gap-5 items-center text-2xl font-bold">
+          <p>Follow me:</p>
+          <a href="https://www.facebook.com/ab.ohi.14" target="{_blank}"> <img className="w-[50px]" src="../../../../public/img/Facebook_Logo_(2019).png.webp" alt="" /></a>
+          <a href=""><img className="w-[50px]" src="../../../../public/img/LinkedIn_icon_circle.svg.png" alt="" /></a>
+          <a href=""><img className="w-[50px]" src="../../../../public/img/logo_github_icon_143196.png" alt="" /></a>
         </div>
       </div>
       <div className="profile-img-section">

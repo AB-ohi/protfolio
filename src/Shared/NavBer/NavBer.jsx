@@ -43,7 +43,7 @@ const NavBer = () => {
         </div>
         <div className="flex items-center gap-1">
         <img className="w-[50px]" src="../../../public/img/logo.png" alt="" />
-        <h1 className="font-bold text-xl logo-name">Ohi</h1>
+        <h1 className="font-bold text-xl logo-name">OHI</h1>
         </div>
       </div>
       <div className="hidden lg:flex">
