@@ -15,7 +15,7 @@ const Profile = () => {
           </div>
           <div className="flex w-full m-0 gap-5 justify-start border-opacity-50">
             <div className="divider w-[106px]"></div>
-            <h2 className="font-semibold text-3xl">Front-End Developer</h2>
+            <h2 className="font-semibold text-3xl">MERN Stack Developer</h2>
           </div>
           <div className="w-[430px]">
             <p>
