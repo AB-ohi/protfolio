@@ -1,0 +1,24 @@
+.inputStyle{
+    outline: none;
+    border: 2px solid rgb(38, 0, 128);
+    width: 250px;
+    height: 50px;
+    border-radius: 11px;
+    padding: 0 10px;
+    background: none;
+}
+.inputText{
+    outline: none;
+    border: 2px solid rgb(38, 0, 128);
+    width: 250px;
+    height: 100px;
+    border-radius: 11px;
+    padding: 0 10px;
+    background: none;
+}
+
+.contact-aria{
+    background: #1c82ff3f;
+    border-radius: 11px;
+    padding: 20px 0 0 40px;
+}

@@ -1,0 +1,69 @@
+.skill {
+  width: 160px;
+  height: 160px;
+  /* background: cornflowerblue; */
+  position: relative;
+}
+.outer {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  padding: 19px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.inner {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+.percentage{
+    font-size: 20px;
+    /* text-decoration: aquamarine; */
+}
+
+circle{
+    fill: none;
+    /* stroke: url(#GradientColor); */
+    stroke: rgba(127,23,196,0.9920343137254902);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    /* stroke-dashoffset: 71; */
+    animation: anim 2s linear forwards;
+    /* animation: rotateAnim 10s linear infinite; */
+}
+.colorPer{
+    position: absolute;
+    top: 0;
+}
+
+/* @keyframes anim {
+    100%{
+        stroke-dashoffset: 71;
+    }
+} */
+/* @keyframes rotateAnim{
+  0%
+  {
+    transform: rotate(360deg);
+  }
+  100%
+  {
+    transform: rotate(0deg);
+  }
+} */
+.skill-container{
+  background-image: url('../../../../public/img/skillbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+

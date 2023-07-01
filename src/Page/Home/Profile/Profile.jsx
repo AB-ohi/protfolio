@@ -27,8 +27,8 @@ const Profile = () => {
         <div className="flex gap-5 items-center text-2xl font-bold">
           <p>Follow me:</p>
           <a href="https://www.facebook.com/ab.ohi.14" target="{_blank}"> <img className="w-[50px]" src="../../../../public/img/Facebook_Logo_(2019).png.webp" alt="" /></a>
-          <a href=""><img className="w-[50px]" src="../../../../public/img/LinkedIn_icon_circle.svg.png" alt="" /></a>
-          <a href=""><img className="w-[50px]" src="../../../../public/img/logo_github_icon_143196.png" alt="" /></a>
+          <a href="https://www.linkedin.com/in/ohi-khan-030590269/" target="{_blank}"><img className="w-[50px]" src="../../../../public/img/LinkedIn_icon_circle.svg.png" alt="" /></a>
+          <a href="https://github.com/AB-ohi" target="{_blank}"><img className="w-[50px]" src="../../../../public/img/logo_github_icon_143196.png" alt="" /></a>
         </div>
       </div>
       <div className="profile-img-section">
