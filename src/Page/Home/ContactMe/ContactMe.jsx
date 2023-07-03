@@ -6,7 +6,7 @@ const ContactMe = () => {
       <h1 className="text-5xl font-bold mb-4 text-center">Contact Me</h1>
       <div className="divider w-[290px] m-auto"></div>
       <div className="md:flex justify-center gap-16 my-10">
-        <img className="md:w-1/3 w-full" src="../../../../public/img/contac.png" alt="" />
+        <img className="md:w-1/3 w-full" src="https://i.ibb.co/6bN2FgM/contac.png" alt="" />
         <div className="md:w-1/3 w-full contact-aria">
           <div className="">
             <label className="label">

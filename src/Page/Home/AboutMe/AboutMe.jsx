@@ -1,10 +1,10 @@
 import "./AboutMe.css";
-import Resume from '../../../../public/img/Abu Sime Khan Ohi (1) (1).pdf'
+import Resume from '../../../../public/img/resme.pdf'
 
 const AboutMe = () => {
   return (
     <div className="about-me md:flex items-center my-[50px] text-white justify-center gap-36 py-[100px]" id="aboutMe">
-      <img className="md:w-1/3" src="../../../../public/img/backGround(2).png" alt="" />
+      <img className="md:w-1/3" src="https://i.ibb.co/pJLKq5X/back-Ground-2.png" alt="" />
       <div className="px-2">
         <h1 className="text-7xl mb-4">About Me</h1>
         <p className="md:w-[500px] mb-6">

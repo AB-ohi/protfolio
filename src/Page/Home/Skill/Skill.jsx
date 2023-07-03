@@ -6,10 +6,10 @@ const Skill = () => {
     const [skills,setSkills] = useState([]) 
 
     useEffect(()=>{
-        fetch("http://localhost:5000/skills")
+        fetch("https://my-portfolio-server-neon-seven.vercel.app/skills")
         .then(res =>res.json())
         .then(data =>{
-                // console.log(data)
+                console.log(data)
             setSkills(data)
         })
     },[])
