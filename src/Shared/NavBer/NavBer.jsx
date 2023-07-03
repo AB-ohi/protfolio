@@ -1,21 +1,25 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import './NavBer.css'
 const NavBer = () => {
   const list = (
     <>
-      <li className='btn'>
-        <Link>Home</Link>
+      <li className=''>
+        <Link to="/">Home</Link>
       </li>
-      <li className='btn'>
-        <a>About Me</a>
+      <li className=''>
+        <Link activeClass="active" to='aboutMe' spy={true} smooth={true} offset={50} duration={500}>About Me</Link>
       </li>
-      <li className='btn'>
-        <a>My Project</a>
+      <li className=''>
+        <Link activeClass="active" to='skill' spy={true} smooth={true} offset={50} duration={500}>My Skill</Link>
+      </li>
+      <li className=''>
+        <Link activeClass="active" to='project' spy={true} smooth={true} offset={50} duration={500}>My Project</Link>
       </li>
       </>
   );
   return (
-    <div className="navbar md:justify-center ">
+    <div className="navbar md:justify-center z-0">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
