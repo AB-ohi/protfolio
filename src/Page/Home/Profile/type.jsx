@@ -7,7 +7,7 @@ const Type = () => {
       sequence={[
         'MERN Stack Developer.', 
         3000,
-        'Being a developing',
+        'Being a developer',
         1000,
         ' is my dream !!',
         3000,

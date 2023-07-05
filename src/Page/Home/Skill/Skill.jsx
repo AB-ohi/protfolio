@@ -6,7 +6,7 @@ const Skill = () => {
     const [skills,setSkills] = useState([]) 
 
     useEffect(()=>{
-        fetch("https://my-portfolio-server-neon-seven.vercel.app/skills")
+        fetch("https://backuop-server.vercel.app/skills")
         .then(res =>res.json())
         .then(data =>{
                 console.log(data)
