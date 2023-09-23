@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "649f340c626d7bb8fdd175df",
+    "skillName": "HTML",
+    "skillDetail": "Proficient in HTML markup language",
+    "skillPercentage": 90
+  },
+  {
+    "_id": "649f340c626d7bb8fdd175e0",
+    "skillName": "CSS",
+    "skillDetail": "Strong understanding of CSS for styling web pages",
+    "skillPercentage": 80
+  },
+  {
+    "_id": "649f340c626d7bb8fdd175e1",
+    "skillName": "JavaScript",
+    "skillDetail": "Knowledgeable in JavaScript programming language",
+    "skillPercentage": 40
+  },
+  {
+    "_id": "649f340c626d7bb8fdd175e2",
+    "skillName": "React",
+    "skillDetail": "Experience in building web applications using React library",
+    "skillPercentage": 70
+  },
+  {
+    "_id": "649f340c626d7bb8fdd175e3",
+    "skillName": "Express.js",
+    "skillDetail": "Proficient in building server-side applications with Express.js",
+    "skillPercentage": 50
+  },
+  {
+    "_id": "649f340c626d7bb8fdd175e4",
+    "skillName": "Node.js",
+    "skillDetail": "Strong understanding of server-side JavaScript with Node.js",
+    "skillPercentage": 20
+  },
+  {
+    "_id": "649f340c626d7bb8fdd175e5",
+    "skillName": "MongoDB",
+    "skillDetail": "Experience in working with MongoDB for database management",
+    "skillPercentage": 85
+  },
+  {
+    "_id": "649f340c626d7bb8fdd175e6",
+    "skillName": "Firebase",
+    "skillDetail": "Knowledgeable in using Firebase for building web applications",
+    "skillPercentage": 74
+  },
+  {
+    "_id": "649f340c626d7bb8fdd175e7",
+    "skillName": "Next.js",
+    "skillDetail": "Proficient in building server-rendered React applications with Next.js",
+    "skillPercentage": 80
+  }
+]

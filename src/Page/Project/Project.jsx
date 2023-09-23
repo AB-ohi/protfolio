@@ -5,7 +5,7 @@ const Project = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(()=>{
-    fetch("https://backuop-server.vercel.app/project")
+    fetch("project.json")
     .then(res => res.json())
     .then(data => {
       setProjects(data)
@@ -16,7 +16,7 @@ const Project = () => {
       <h1 className="text-5xl font-bold mb-4 text-center">Project</h1>
       <div className="divider w-[290px] m-auto" />
       <div>
-        <div className="md:grid grid-cols-3 gap-3 justify-center card card-compact bg-base-100 shadow-xl">
+        <div className="md:grid container m-auto grid-cols-2 gap-3 justify-center card card-compact bg-base-100 shadow-xl">
           {
             projects.map(project=><ProjectCard
             key={project._id}

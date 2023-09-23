@@ -14,7 +14,8 @@ const AboutMe = () => {
         </p>
         <div className="">
             <a className="btn download-re" href={Resume} download='resume'>Download Resume</a>
-            <a className="btn view-re" href="">View Resume</a>
+            
+            <a className="btn view-re" target="{_blank}" href="https://drive.google.com/file/d/13AxK5WCu0XCBuUhRmLlJysV6GLu9rRSm/view?usp=sharing">View Resume</a>
         </div>
       </div>
     </div>

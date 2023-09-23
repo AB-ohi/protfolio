@@ -13,12 +13,12 @@
   margin-right: 30px;
 }
 .download-re:hover {
-  color: black;
+  color: rgba(88, 8, 251, 1);
 }
 
 .view-re {
     background: white;
-    color: black;
+    color: rgba(88, 8, 251, 1);
   border: 2px solid white;
   transition: 0.5s;
 }
